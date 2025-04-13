@@ -1,0 +1,62 @@
+# Hotel Performance Data Dashboard with Power BI
+
+This project features an interactive dashboard built using Power BI to analyze key performance indicators (KPIs) within the hotel industry. The dashboard provides a dynamic overview of revenue, occupancy, pricing strategies, and booking platform performance, enabling data-driven decision-making.
+
+## Overview
+
+The dashboard provides insights into the following critical hotel performance metrics:
+
+* **Revenue:** Total revenue generated.
+* **RevPAR (Revenue Per Available Room):** A key metric indicating revenue generation efficiency.
+* **Occupancy %:** The percentage of available rooms that are occupied.
+* **ADR (Average Daily Rate):** The average revenue earned per occupied room.
+* **Realisation:** The percentage of the expected rate that was actually achieved.
+* **DSRN (Daily Sold Room Nights):** The number of rooms sold each day.
+
+The dashboard allows users to explore these metrics across different categories, properties, and booking platforms, as well as track trends over time.
+
+## Key Metrics Visualized
+
+* **Revenue:** ₹1.69bn
+* **RevPAR:** 7,337
+* **Occupancy %:** 57.8%
+* **ADR:** ₹12.7K
+* **Realisation:** 70.1%
+* **DSRN:** 2528
+
+**Interactive Tooltips:** For each of the key metrics (Revenue, RevPAR, Occupancy %, ADR, Realisation, DSRN), interactive tooltips are implemented. Hovering over these figures and related chart elements will provide additional context, detailed breakdowns, and underlying data, enhancing understanding and analysis.
+
+## Interactive Features
+
+The dashboard is designed for intuitive exploration with the following interactive capabilities:
+
+* **Filters:**
+* **Filter by Room Class:** Analyze performance for specific room categories.
+* **Filter by City:** Examine data for individual hotel locations.
+* **Slicers (Implicit):** While not explicitly labeled as slicers in the visual, the various chart elements act as filters when selected, allowing users to focus on specific data points.
+* **Drill-Down Capabilities:** Some visuals may allow for drilling down into more granular levels of data (e.g., expanding monthly trends to weekly or daily views).
+* **Hover-Over Insights:** As mentioned, hovering over data points reveals detailed information through tooltips.
+* **Cross-Filtering:** Selecting elements in one visual will often highlight or filter related data in other visuals on the dashboard, providing a connected view of the data.
+
+## Visualizations Included
+
+* **Key Metric Cards:** Displaying the current values of Revenue, RevPAR, Occupancy %, ADR, Realisation, and DSRN with week-over-week change indicators.
+* **% Revenue by Category (Donut Chart):** Illustrating the distribution of revenue across different categories.
+* **Trend by Key Metrics (Line Chart):** Showing the evolution of RevPAR, ADR, and Occupancy % over the past few weeks.
+* **Property Performance by Key Metrics (Table):** A detailed table comparing the Revenue, Total Bookings, RevPAR, Occupancy %, ADR, DSRN, Realisation %, Cancellation %, and Average Rating for different hotel properties.
+* **Realisation % and ADR by Platform (Bar Chart):** Comparing the achieved realisation and average daily rate across various booking platforms.
+
+## Technologies Used
+
+* **Power BI:** The primary tool utilized for data connection, transformation, modeling, visualization, and dashboard creation.
+* **Hotel Performance Data:** The underlying dataset containing information about hotel bookings, revenue, room availability, pricing, and booking sources.
+
+## How to Use (If Sharing the PBIX File)
+
+1.  **Download Power BI Desktop:** Ensure you have Power BI Desktop installed on your machine. You can download it for free from the official Microsoft website.
+2.  **Open the PBIX File:** Download the `Revenue Insights in Hospitality Domain.pbix` file (replace with the actual name of your Power BI file) and open it using Power BI Desktop.
+3.  **Interact with the Dashboard:** Once the dashboard is open, you can interact with the various visuals by clicking on filters, selecting data points, and hovering over elements to explore the data and utilize the tooltips.
+
+## Author
+
+[VIVEK SAHU/ VIVEKSAHU-06]
