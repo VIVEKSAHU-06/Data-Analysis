@@ -1,0 +1,49 @@
+# Mobile Sales Data Dashboard with Power BI
+
+This project showcases an interactive dashboard created using Power BI to analyze mobile sales data. The dashboard provides a comprehensive overview of key sales metrics and allows for in-depth exploration of various trends.
+
+## Overview
+
+The dashboard provides insights into the following key areas:
+
+* **Overall Performance:** Total sales, total quantity sold, total transactions, and average sales are displayed at a glance.
+* **Sales by Geography:** An interactive map visualizes total sales across different cities in India.
+* **Monthly Trends:** Line charts illustrate the total quantity of mobile phones sold each month.
+* **Customer Satisfaction:** A funnel chart displays customer ratings distribution.
+* **Payment Method Analysis:** A pie chart breaks down total transactions by different payment methods (UPI, Debit Card, Cash, Credit Card).
+* **Top Performers:** Bar charts highlight total sales and total quantity sold by different mobile brands (Apple, OnePlus, Samsung, Vivo, Xiaomi) and specific mobile models (iPhone SE, OnePlus..., Galaxy N...).
+* **Daily Patterns:** A line chart shows the total quantity of mobile phones sold on different days of the week.
+
+## Key Metrics Visualized
+
+* **Total Sales:** ₹769M
+* **Total Quantity:** 19K
+* **Total Transactions:** 4K
+* **Average Sales:** 40K
+
+## Interactive Features
+
+The dashboard is fully interactive, allowing users to:
+
+* **Filter by Mobile Model:** Select specific mobile models to analyze their sales performance.
+* **Filter by Payment Method:** Examine sales trends based on different payment options.
+* **Filter by Brand:** Focus on the performance of individual mobile phone brands.
+* **Filter by Day Name:** Investigate sales patterns across different days of the week.
+* **Drill Down on Map:** Explore sales data for specific cities by interacting with the map.
+* **Hover for Details:** Hover over data points in charts to see more specific information.
+
+## Technologies Used
+
+* **Power BI:** The primary tool used for data connection, transformation, modeling, visualization, and dashboard creation.
+* **Mobile Sales Data:** The underlying dataset containing information about mobile phone sales, including transaction details, product information, customer ratings, and geographical data.
+
+## How to Use (If Sharing the PBIX File)
+
+1.  **Download Power BI Desktop:** Ensure you have Power BI Desktop installed on your machine. You can download it for free from the official Microsoft website.
+2.  **Open the PBIX File:** Download the `Mobile Sales Dashboard.pbix` file (replace with the actual name of your Power BI file) and open it using Power BI Desktop.
+3.  **Interact with the Dashboard:** Once the dashboard is open, you can interact with the various visuals by clicking on filters, hovering over data points, and exploring the different tabs (if applicable).
+
+
+## Author
+
+[VIVEK SAHU / VIVEKSAHU-06]
