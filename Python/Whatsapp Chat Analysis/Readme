@@ -1,0 +1,70 @@
+
+# WhatsApp Chat Analyzer
+
+This project is a Python-based WhatsApp Chat Analyzer that allows you to gain insights from your exported WhatsApp chat logs.  It supports both individual and group chats and provides an interactive data visualization experience using Streamlit.
+
+## Features
+
+* **Chat Analysis:** Analyzes exported WhatsApp chat logs (in `.txt` format).
+* **Individual & Group Chat Support:** Works with both one-on-one conversations and group chat data.
+* **Data Extraction:** Extracts key information from the chat log, including:
+    * Messages
+    * Dates and Times
+    * Authors (participants)
+* **Summary Statistics:**
+    * Total number of messages
+    * Number of media messages
+    * Number of links shared
+* **User Activity:**
+    * Number of messages per user
+    * Word count per user
+* **Timeline Analysis:**
+    * Message activity over time (daily, weekly, monthly)
+* **Word Cloud:** Visual representation of the most frequent words in the chat.
+* **Most Active Hours:** Distribution of messages across different hours of the day.
+* **Interactive Visualization:** Presents the analyzed data in an interactive and user-friendly web application using Streamlit.
+
+## How it Works
+
+The application processes the exported WhatsApp chat log in the following steps:
+
+1.  **Data Input:** The user uploads the exported `.txt` file containing the chat history.
+2.  **Data Preprocessing:**
+    * Parses the chat log to extract message timestamps, authors, and message text.
+    * Handles different date and time formats that WhatsApp uses.
+    * Filters out system messages and media messages.
+3.  **Data Analysis:**
+    * Calculates various statistics, including message counts, word counts, and user activity.
+    * Generates a timeline of message activity.
+    * Creates a word cloud of the most frequent words.
+    * Determines the most active hours of the day.
+4.  **Data Visualization:**
+    * Presents the analyzed data using Streamlit, creating an interactive web application.
+    * Displays charts, graphs, and tables to visualize the insights.
+
+## Requirements
+
+Before running the application, ensure you have the following Python packages installed:
+
+* streamlit
+* pandas
+* matplotlib
+* wordcloud
+* urllib3  # (May be needed for wordcloud)
+* arabic-reshaper # (For handling Arabic text in word cloud)
+* python-bidi # (For handling Arabic text in word cloud)
+
+You can install these packages using pip:
+
+```bash
+pip install streamlit pandas matplotlib wordcloud urllib3 arabic-reshaper python-bidi
+How to RunExport WhatsApp Chat:Open the desired chat in WhatsApp (individual or group).Tap on the chat's name.Scroll to the bottom and tap "Export Chat".Choose "Without Media" to speed up the process (this application focuses on text analysis).Save the exported .txt file to your computer.Clone the Repository (Optional): If you have downloaded the code from GitHub:git clone <repository_url>
+cd whatsapp-chat-analyzer  # Navigate to the project directory
+Run the Streamlit App:streamlit run app.py
+Replace app.py with the name of your main script if it's different.Upload Chat Log: The Streamlit application will open in your browser.  Use the file upload button to upload your exported WhatsApp chat .txt file.View Analysis: The application will process the data and display the analysis results in the Streamlit interface.File Structurewhatsapp-chat-analyzer/
+│
+├── app.py          # Main Streamlit application file
+├── README.md       # Project documentation (this file)
+│
+└── ...           # Other supporting files (if any, e.g., helper functions)
+Important Notes on WhatsApp DataPrivacy: The exported chat log may contain sensitive information.  Use this tool responsibly and ensure you comply with WhatsApp's terms of service and any relevant privacy regulations.File Size: Large chat logs may take longer to process."Without Media": It is recommended to export the chat without media, as this application is designed for text analysis.  Including media files will significantly increase the processing time and file size.Character Encoding: Ensure your chat log is encoded in a format that supports all characters in your messages (usually UTF-8).  Issues may arise with certain character encodings.TroubleshootingEncoding Errors: If you encounter errors related to character encoding, try opening the chat log in a text editor (like Notepad++ on Windows or TextEdit on macOS) and saving it with UTF-8 encoding.File Not Found: Make sure the chat log file is in the correct location and that you are running the Streamlit app from the correct directory.Long Processing Time: Large chat logs can take time to process.  The processing time depends on your computer's resources.Streamlit Issues: If you encounter issues with Streamlit, ensure you have the latest version installed and check the Streamlit documentation for troubleshooting tips.ContributingContributions are welcome! If you have any ideas for new features, bug fixes, or improvements, feel free to submit a pull request.License
