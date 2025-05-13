@@ -95,4 +95,4 @@ GROUP BY extracted_month
 ORDER BY extracted_month;
 
 -- Created by VIEVK SAHU
--- Project link:- "https://github.com/VIVEKSAHU-06/Data-Analysis/tree/3c2866b411b403fed58f40ada68ad126e4cd29cb/SQL/Hospital%20Analysis"
+-- Project link:- "https://github.com/VIVEKSAHU-06/Data-Analysis/tree/602d17c5bd0a6d99eebd1101d40c114537873015/SQL/Hospital%20Analysis"
